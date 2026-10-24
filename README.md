@@ -686,3 +686,4 @@ By default it uses the file `database/sqli.db`, if you mess it up, simply copy `
 The challenges are exactly the same as for MariaDB, they just run against SQLite3 instead.
 
 
+# Web-Security-Testing
