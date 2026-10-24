@@ -178,7 +178,7 @@ function dvwaCurrentUser() {
 
 function &dvwaPageNewGrab() {
 	$returnArray = array(
-		'title'           => 'Damn Vulnerable Web Application (DVWA)',
+		'title'           => 'Web Security Testing',
 		'title_separator' => ' :: ',
 		'body'            => '',
 		'page_id'         => '',
@@ -407,9 +407,9 @@ function dvwaHtmlEcho( $pPage ) {
 
 			<div id=\"header\">
 
-				<img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/logo.png\" alt=\"Damn Vulnerable Web Application\" />
+				<img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/logo.png\" alt=\"Web Security Testing\" />
                 <a href=\"#\" onclick=\"javascript:toggleTheme();\" class=\"theme-icon\" title=\"Toggle theme between light and dark.\">
-                    <img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/theme-light-dark.png\" alt=\"Damn Vulnerable Web Application\" />
+                    <img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/theme-light-dark.png\" alt=\"Web Security Testing\" />
                 </a>
 			</div>
 
@@ -438,7 +438,7 @@ function dvwaHtmlEcho( $pPage ) {
 
 			<div id=\"footer\">
 
-				<p>Damn Vulnerable Web Application (DVWA)</p>
+				<p>Web Security Testing</p>
 				<script src='" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/js/add_event_listeners.js'></script>
 
 			</div>
