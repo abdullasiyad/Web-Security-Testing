@@ -1,0 +1,9 @@
+# DVWA Local Configuration (contains database credentials and secret keys)
+config/config.inc.php
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
